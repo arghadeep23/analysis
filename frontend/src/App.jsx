@@ -149,7 +149,7 @@ function App() {
         <div className="text-center mb-2">
           <h1>Line Graphs for Analysis</h1>
         </div>
-        <div className="flex flex-col items-center lg:flex-row justify-center gap-4">
+        <div className="flex flex-col items-center lg:flex-row justify-center">
           <LineChart label="Number of Jobs" yaxis="jobs" data={data} xaxis="year" color="#f77f00" />
           <LineChart label="Average Salary" yaxis="avgSalary" data={data} xaxis="year" color="#264653" />
         </div>

@@ -20,7 +20,7 @@ export default function LineChart({ label, yaxis, data, xaxis, color }) {
     )
     return (
         <>
-            <div className="w-300 h-300 lg:w-[400px] lg:h-[400px] xl:w-[600px] xl:h-[500px]">
+            <div className="w-10/12 md:w-6/12">
                 <Line
                     data={{
                         labels: data.map((row) => row[xaxis]),
